@@ -1,21 +1,19 @@
 # <h2 style="margin-bottom:7px;margin-top:20px;font-weight:400;">Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks (ICCV'23)</h2> 
 
-<a href="https://ephemeral182.github.io"><strong>Sixiang Chen</strong></a><sup>1,3</sup>*&nbsp;&nbsp;&nbsp; 
-<a href="https://owen718.github.io">Tian Ye</a><sup>1,3</sup>&nbsp;&nbsp;&nbsp;
-<a href="https://noyii.github.io">Jinbin Bai</a><sup>2</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://ephemeral182.github.io"><strong>Sixiang Chen</strong></a><sup></sup>&nbsp;&nbsp;&nbsp; 
+<a href="https://owen718.github.io">Tian Ye</a><sup></sup>&nbsp;&nbsp;&nbsp;
+<a href="https://noyii.github.io">Jinbin Bai</a><sup></sup>&nbsp;&nbsp;&nbsp;
 <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
 Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
-<a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>1,5 ✉️</sup>&nbsp;&nbsp;&nbsp;
+<a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>✉️</sup>&nbsp;&nbsp;&nbsp;
 <br>
-<sup>1</sup>The Hong Kong University of Science and Technology (Guangzhou)&nbsp;&nbsp;&nbsp;
-<sup>2</sup>National University of Singapore&nbsp;&nbsp;&nbsp;<br>
-<sup>3</sup>School of Ocean Information Engineering, Jimei University&nbsp;&nbsp;&nbsp;             
-<sup>4</sup>Xinjiang University&nbsp;&nbsp;&nbsp; 
-<sup>5</sup>The Hong Kong University of Science and Technology&nbsp;&nbsp;&nbsp;   
 
-<div class="post-img-group">
-    <img class="post-img" style="left:0;right:0;margin-bottom:0;width:120%" src="https://ephemeral182.github.io/images/350.gif" alt="Left Image">
+
+  <div class="post-img-group">
+    <img class="post-img" style="left:0;right:0;margin-bottom:0;width:100%" src="https://ephemeral182.github.io/images/350.gif" alt="Left Image">
   </div> 
+
+  
 ---
     
 <div class="post-line" style=“border-top: 0.4rem solid #55657d;
@@ -92,3 +90,35 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
     <img class="post-img" style="max-width:100%;margin-bottom:0;" src="https://ephemeral182.github.io/images/metric.png"  alt="Left Image">
   </div>
   </div>
+
+## Installation
+Our SnowFormer is built in Pytorch1.12.0, we train and test it ion Ubuntu20.04 environment (Python3.8, Cuda11.6).
+
+For installing, please follow these intructions.
+```
+conda create -n py38 python=3.8
+conda activate py38
+conda install pytorch=1.12 
+pip install opencv-python tqdm tensorboardX ....
+```
+## Dataset
+We sample the 2000 images from every desnowing dataset for the test stage, including CSD, SRRS, Snow100K, SnowCityScapes and SnowKITTI. We provide the download link of datasets, and the password is **ephe**.
+
+<table>
+  <tr>
+    <th align="left">Dataset</th>
+    <th align="center">CSD</th>
+    <th align="center">SRRS</th>
+    <th align="center">Snow100K</th>
+    <th align="center">SnowCityScapes</th>
+    <th align="center">SnowKITTI</th>
+  </tr>
+  <tr>
+    <td align="left">Link</td>
+    <td align="center"><a href="https://pan.baidu.com/s/133JxR-sCICZyIXAZSxS_GQ">Download</a></td>
+    <td align="center"><a href="https://pan.baidu.com/s/1vTBmacVkwp6qtjofMC4-Qg">Download</a></td>
+    <td align="center"><a href="https://pan.baidu.com/s/1TStTvd4GGF60HYTahvyxpA">Download</a></td>
+    <td align="center"><a href="https://pan.baidu.com/s/1hr2eaD95iW6sO40aCBBFwQ">Download</a></td>
+    <td align="center"><a href="https://pan.baidu.com/s/12WxsXEc_pUlAWqa594jm_Q">Download</a></td>
+  </tr>
+ </table>
