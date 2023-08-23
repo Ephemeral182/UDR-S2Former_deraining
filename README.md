@@ -13,6 +13,9 @@ Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
 <sup>4</sup>Xinjiang University&nbsp;&nbsp;&nbsp; 
 <sup>5</sup>The Hong Kong University of Science and Technology&nbsp;&nbsp;&nbsp;   
 
+<div class="post-img-group">
+    <img class="post-img" style="left:0;right:0;margin-bottom:0;width:120%" src="https://ephemeral182.github.io/images/350.gif" alt="Left Image">
+  </div> 
 ---
     
 <div class="post-line" style=“border-top: 0.4rem solid #55657d;
@@ -58,9 +61,7 @@ Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
                 </div>
         </div>
 
-## <h2 class="post-section" style="padding-left: 25px;    margin-bottom: 0px;    padding-top: 20px;">Abstract</h2>
-
- 
+## <h2 style="padding-left: 25px;    margin-bottom: 0px;    padding-top: 20px;">Abstract</h2>
 In the real world, image degradations caused by rain often exhibit a combination of rain streaks and raindrops, thereby increasing the challenges of recovering the underlying clean image. Note that the rain streaks and raindrops have diverse shapes, sizes, and locations in the captured image, and thus modeling the correlation relationship between irregular degradations caused by rain artifacts is a necessary prerequisite for image deraining. 
 This paper aims to present an efficient and flexible mechanism to learn and model degradation relationships in a global view, thereby achieving a unified removal of intricate rain scenes. 
 To do so, we propose a <u>S</u>parse <u>S</u>ampling Trans<u>former</u> based on <u>U</u>ncertainty-<u>D</u>riven <u>R</u>anking, dubbed <strong>UDR-S<sup>2</sup>Former</strong>. 
@@ -69,15 +70,14 @@ Second, explicit application of the uncertainty-driven ranking strategy can faci
 Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outperforms state-of-the-art methods for all benchmarks.
 
 
-<h2 class="post-section" style="
-    padding-left: 25px;
-    margin-bottom: 0px;
-    padding-top: 20px;
-">Method</h2>
+## <h2  style="padding-left: 25px;    margin-bottom: 0px;    padding-top: 20px;">Method</h2>
 
-<img  style="width:80;max-width:100%" src="https://ephemeral182.github.io/images/uncertainty_map.png" alt="Left Image">
-<img  style="width:40;max-width:50%" src="https://ephemeral182.github.io/images/udr_overview1.png" alt="Left Image">
-<img  style="width:40;max-width:50%" src="https://ephemeral182.github.io/images/udr_overview2.png" alt="Right Image">
+<img  style="width:100%;max-width:96%" src="https://ephemeral182.github.io/images/uncertainty_map.png" alt="Left Image">
+<div class="post-img-group">
+    <img class="post-img" style="width:48%;max-width:50%" src="https://ephemeral182.github.io/images/udr_overview1.png" alt="Left Image">
+    <img class="post-img" style="width:48%;max-width:50%" src="https://ephemeral182.github.io/images/udr_overview2.png" alt="Right Image">
+  </div> 
+  </div>
 
 
 
