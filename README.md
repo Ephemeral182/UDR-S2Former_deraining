@@ -6,12 +6,13 @@
 <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
 Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
 <a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>✉️</sup>&nbsp;&nbsp;&nbsp;
-<br>
 
 
-  <div class="post-img-group">
+<div class="post-img-group">
+    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%" src="https://ephemeral182.github.io/images/real_gif1.gif" alt="Left Image">
+    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%" src="https://ephemeral182.github.io/images/real_gif2.gif" alt="Right Image">
     <img class="post-img" style="left:0;right:0;margin-bottom:0;width:100%" src="https://ephemeral182.github.io/images/350.gif" alt="Left Image">
-  </div> 
+</div> 
 
   
 ---
@@ -122,3 +123,15 @@ We sample the 2000 images from every desnowing dataset for the test stage, inclu
     <td align="center"><a href="https://pan.baidu.com/s/12WxsXEc_pUlAWqa594jm_Q">Download</a></td>
   </tr>
  </table>
+ 
+## Citation 
+```
+@inproceedings{chen2023deraining,
+  title={Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks},
+  author={Chen, Sixiang and Ye, Tian and Bai, Jinbin and Chen, Erkang and Shi, Jun and Zhu, Lei},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  year={2023}
+}
+```
+## Contact
+If you have any questions, please contact the email sixiangchen@hkust-gz.edu.cn or ephemeral182@gmail.com.
