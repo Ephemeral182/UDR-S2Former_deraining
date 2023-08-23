@@ -76,10 +76,10 @@ Second, explicit application of the uncertainty-driven ranking strategy can faci
 Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outperforms state-of-the-art methods for all benchmarks.</p>
 </div>
 
-<h2 style="
-    text-align: center;
+
+<h2 class="post-section" style="
     padding-left: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding-top: 20px;
 ">Method</h2>
 <div style="box-shadow:3px 6px 13px 0px  rgba(0,0,0,0.5)">
