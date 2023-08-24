@@ -25,7 +25,7 @@ Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
     <td style="text-align: center;">
       <img 
         src="https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/350.gif" 
-        width="800" 
+        width="810" 
       >
     </td>
   </tr>
