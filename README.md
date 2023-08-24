@@ -70,7 +70,7 @@ conda install pytorch=1.12
 pip install opencv-python tqdm tensorboardX ....
 ```
 ## Dataset
-We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)</strong>, Rain200L<strong>(Rain streaks)</strong>, RainDrop<strong>(Raindrops&Rain streaks)</strong> and AGAN<strong>(Raindrops)</strong> benchmarks. The download links of datasets are provided, and the password is **ephe**.
+We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)</strong>, Rain200L<strong>(Rain streaks)</strong>, RainDrop<strong>(Raindrops&Rain streaks)</strong> and AGAN<strong>(Raindrops)</strong> benchmarks. The download links of datasets are provided.
 
 <table>
   <tr>
@@ -82,10 +82,10 @@ We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)<
   </tr>
   <tr>
     <td align="left">Link</td>
-    <td align="center"><a href="https://pan.baidu.com/s/133JxR-sCICZyIXAZSxS_GQ">Download</a></td>
-    <td align="center"><a href="https://pan.baidu.com/s/1vTBmacVkwp6qtjofMC4-Qg">Download</a></td>
-    <td align="center"><a href="https://pan.baidu.com/s/1TStTvd4GGF60HYTahvyxpA">Download</a></td>
-    <td align="center"><a href="https://pan.baidu.com/s/1hr2eaD95iW6sO40aCBBFwQ">Download</a></td>
+    <td align="center"><a href="https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html">Download</a></td>
+    <td align="center"><a href="https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html">Download</a></td>
+    <td align="center"><a href="https://github.com/Songforrr/RainDS_CCN">Download</a></td>
+    <td align="center"><a href="https://github.com/rui1996/DeRaindrop">Download</a></td>
   </tr>
  </table>
 
