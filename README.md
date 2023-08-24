@@ -72,6 +72,12 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
   </div>
   </div>
 
+<table style="margin: auto;">
+  <tr>
+    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real4.gif" width="388"> </td>
+    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real9.gif" width="388"> </td>
+  </tr>
+</table>
 ## Installation
 Our SnowFormer is built in Pytorch1.12.0, we train and test it ion Ubuntu20.04 environment (Python3.8, Cuda11.6).
 
