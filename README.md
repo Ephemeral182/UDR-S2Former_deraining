@@ -22,43 +22,10 @@ Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
     margin: 0 auto 2rem;
     width: 5rem;”></div>
     
-<div style="margin-bottom: 0.7em;" class="post-authors">
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <ul class="nav nav-pills nav-justified" style="box-shadow:0 0">
-                        <li>
-                            <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
-                            <!-- <a href="https://arxiv.org/abs/2112.05504"> -->
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
-                                <h5><strong>arXiv</strong></h5>
-                            </a>
-                        </li>
-                        <li>
-                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/paper.jpg" height="50px">
-                                <h5><strong>ICCV 2023</strong></h5>
-                            </a>
-                        </li>
-                        <li>
-                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/datatset.jpg" height="50px">
-                                <h5><strong>Dataset</strong></h5>
-                            </a>
-                        </li>                        
-                        <li>
-                            <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/github.png" height="50px">
-                                <h5><strong>Code</strong></h5>
-                            </a>
-                        </li>
-                        <li>
-                             <a href="https://ephemeral182.github.io/UDR_S2Former_deraining/">
-                            <img class="post-logo" src="https://ephemeral182.github.io/images/supplementary.jpg" height="50px">
-                                <h5><strong>Supplementery</strong></h5>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-        </div>
+[![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://arxiv.org/abs/2102.02808)
+[![supplement](https://img.shields.io/badge/Supplementary-Material-B85252)](https://drive.google.com/file/d/1mbfljawUuFUQN9V5g0Rmw1UdauJdckCu/view?usp=sharing)
+[![project](https://img.shields.io/badge/Video-Presentation-F9D371)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
+[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://drive.google.com/file/d/1-L43wj-VTppkrR9AL6cPBJI2RJi3Hc_z/view?usp=sharing)
 
 ## <h2 style="padding-left: 25px;    margin-bottom: 0px;    padding-top: 20px;">Abstract</h2>
 In the real world, image degradations caused by rain often exhibit a combination of rain streaks and raindrops, thereby increasing the challenges of recovering the underlying clean image. Note that the rain streaks and raindrops have diverse shapes, sizes, and locations in the captured image, and thus modeling the correlation relationship between irregular degradations caused by rain artifacts is a necessary prerequisite for image deraining. 
@@ -103,16 +70,15 @@ conda install pytorch=1.12
 pip install opencv-python tqdm tensorboardX ....
 ```
 ## Dataset
-We sample the 2000 images from every desnowing dataset for the test stage, including CSD, SRRS, Snow100K, SnowCityScapes and SnowKITTI. We provide the download link of datasets, and the password is **ephe**.
+We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)</strong>, Rain200L<strong>(Rain streaks)</strong>, RainDrop<strong>(Raindrops&Rain streaks)</strong> and AGAN<strong>(Raindrops)</strong> benchmarks. The download links of datasets are provided, and the password is **ephe**.
 
 <table>
   <tr>
     <th align="left">Dataset</th>
-    <th align="center">CSD</th>
-    <th align="center">SRRS</th>
-    <th align="center">Snow100K</th>
-    <th align="center">SnowCityScapes</th>
-    <th align="center">SnowKITTI</th>
+    <th align="center">Rain200H</th>
+    <th align="center">Rain200L</th>
+    <th align="center">RainDrop</th>
+    <th align="center">AGAN</th>
   </tr>
   <tr>
     <td align="left">Link</td>
@@ -120,7 +86,6 @@ We sample the 2000 images from every desnowing dataset for the test stage, inclu
     <td align="center"><a href="https://pan.baidu.com/s/1vTBmacVkwp6qtjofMC4-Qg">Download</a></td>
     <td align="center"><a href="https://pan.baidu.com/s/1TStTvd4GGF60HYTahvyxpA">Download</a></td>
     <td align="center"><a href="https://pan.baidu.com/s/1hr2eaD95iW6sO40aCBBFwQ">Download</a></td>
-    <td align="center"><a href="https://pan.baidu.com/s/12WxsXEc_pUlAWqa594jm_Q">Download</a></td>
   </tr>
  </table>
 
