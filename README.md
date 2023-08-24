@@ -15,8 +15,8 @@ Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
 
 <table style="margin: auto;">
   <tr>
-    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real_gif1.gif" width="390"> </td>
-    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real_gif2.gif" width="390"> </td>
+    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real_gif1.gif" width="388"> </td>
+    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real_gif2.gif" width="388"> </td>
   </tr>
 </table>
 
@@ -25,7 +25,7 @@ Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
     <td style="text-align: center;">
       <img 
         src="https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/350.gif" 
-        width="810" 
+        width="804" 
       >
     </td>
   </tr>
