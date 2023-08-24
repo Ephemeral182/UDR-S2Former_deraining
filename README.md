@@ -113,7 +113,7 @@ We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)<
 
 To test the pre-trained models of [Deraining](https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/pretrained/udrs2former_demo.pth)  on your own images, run 
 ```
-python demo.py --task Task_Name --input_dir path_to_images --result_dir save_images_here
+python demo.py -c config/demo.yaml
 ```
 Here is an example to perform Deblurring:
 ```
