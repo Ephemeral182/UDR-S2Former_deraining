@@ -74,8 +74,8 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 
 <table style="margin: auto;">
   <tr>
-    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real4.gif" height="300"> </td>
-    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real9.gif" height="300"> </td>
+    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real4.gif" height="250"> </td>
+    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real9.gif" height="250"> </td>
   </tr>
 </table>
 
