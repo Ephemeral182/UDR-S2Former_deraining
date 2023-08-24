@@ -1,0 +1,12 @@
+# model config
+img_size_h: 320
+img_size_w: 320
+# test config
+tile: 320
+tile_overlap: 64
+scale: 1
+
+model_weights: 'pretrained/udrs2former_demo.pth'
+image_path: 'image_demo/input_images'
+output_image_path: 'image_demo/output_images'
+
