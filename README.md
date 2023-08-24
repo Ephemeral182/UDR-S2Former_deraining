@@ -1,6 +1,6 @@
 # Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks (ICCV'23)
 
-<a href="https://ephemeral182.github.io"><strong>Sixiang Chen</strong></a><sup></sup>&nbsp;&nbsp;&nbsp; 
+<a href="https://ephemeral182.github.io">Sixiang Chen</a><sup></sup>&nbsp;&nbsp;&nbsp; 
 <a href="https://owen718.github.io">Tian Ye</a><sup></sup>&nbsp;&nbsp;&nbsp;
 <a href="https://noyii.github.io">Jinbin Bai</a><sup></sup>&nbsp;&nbsp;&nbsp;
 <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
@@ -74,8 +74,8 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 
 <table style="margin: auto;">
   <tr>
-    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real4.gif" width="388"> </td>
-    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real9.gif" width="388"> </td>
+    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real4.gif" height="300"> </td>
+    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real9.gif" height="300"> </td>
   </tr>
 </table>
 
