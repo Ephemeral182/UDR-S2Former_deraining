@@ -111,7 +111,7 @@ We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)<
 
 ## Quick Run
 
-To test the pre-trained models of [Deraining](https://drive.google.com/file/d/1O3WEJbcat7eTY6doXWeorAbQ1l_WmMnM/view?usp=sharing),  on your own images, run 
+To test the pre-trained models of [Deraining](https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/pretrained/udrs2former_demo.pth)  on your own images, run 
 ```
 python demo.py --task Task_Name --input_dir path_to_images --result_dir save_images_here
 ```
