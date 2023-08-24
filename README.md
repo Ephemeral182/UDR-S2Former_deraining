@@ -12,13 +12,24 @@ Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
 [![project](https://img.shields.io/badge/Project-Presentation-F9D371)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
 <!--[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://drive.google.com/file/d/1-L43wj-VTppkrR9AL6cPBJI2RJi3Hc_z/view?usp=sharing)-->
 
-<div class="post-img-group">
-    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%;width:45%" src="https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real_gif1.gif" alt="Left Image">
-    <img class="post-img" style="left:0;right:0;margin-bottom:0px;max-width:50%;width:45%" src="https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real_gif2.gif" alt="Right Image">
-</div> 
-<div class="post-img-group">
-    <img class="post-img" style="left:0;right:0;margin-bottom:0;width:100%" src="https://github.com/Ephemeral182/UDR-S2Former_deraining/tree/main/image/350.gif" alt="Left Image">
-</div> 
+
+<table style="margin: auto;">
+  <tr>
+    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real_gif1.gif" width="450"> </td>
+    <td> <img src = "https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/real_gif2.gif" width="450"> </td>
+  </tr>
+</table>
+
+<table style="margin: auto;">
+  <tr>
+    <td style="text-align: center;">
+      <img 
+        src="https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/image/350.gif" 
+        width="900" 
+      >
+    </td>
+  </tr>
+</table>
 
 ---
     
