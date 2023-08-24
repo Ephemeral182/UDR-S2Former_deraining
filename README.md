@@ -3,8 +3,8 @@
 <a href="https://ephemeral182.github.io">Sixiang Chen</a><sup></sup>&nbsp;&nbsp;&nbsp; 
 <a href="https://owen718.github.io">Tian Ye</a><sup></sup>&nbsp;&nbsp;&nbsp;
 <a href="https://noyii.github.io">Jinbin Bai</a><sup></sup>&nbsp;&nbsp;&nbsp;
-<a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a><sup></sup>&nbsp;&nbsp;&nbsp;
-Jun Shi<sup></sup>&nbsp;&nbsp;&nbsp;
+<a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a>&nbsp;&nbsp;&nbsp;
+Jun Shi&nbsp;&nbsp;&nbsp;
 <a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>✉️</sup>&nbsp;&nbsp;&nbsp;
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
