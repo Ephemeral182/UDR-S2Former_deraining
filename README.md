@@ -22,8 +22,8 @@ Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
     margin: 0 auto 2rem;
     width: 5rem;”></div>
     
-[![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://arxiv.org/abs/2102.02808)
-[![supplement](https://img.shields.io/badge/Supplementary-Material-B85252)](https://drive.google.com/file/d/1mbfljawUuFUQN9V5g0Rmw1UdauJdckCu/view?usp=sharing)
+[![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
+[![supplement](https://img.shields.io/badge/Supplementary-Material-B85252)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
 [![project](https://img.shields.io/badge/Project-Presentation-F9D371)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
 <!--[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://drive.google.com/file/d/1-L43wj-VTppkrR9AL6cPBJI2RJi3Hc_z/view?usp=sharing)-->
 
