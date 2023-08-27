@@ -82,9 +82,9 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 </table>
 
 ## Installation
-Our UDR-S<sup>2</sup>Former is built in Pytorch2.0.1, we train and test it on Ubuntu20.04 environment (Python3.8+, Cuda11.6).
+:satisfied: Our UDR-S<sup>2</sup>Former is built in Pytorch2.0.1, we train and test it on Ubuntu20.04 environment (Python3.8+, Cuda11.6).
 
-:satisfied: For installing, please follow these instructions:
+For installing, please follow these instructions:
 ```
 conda create -n py38 python=3.8
 conda activate py38
@@ -92,7 +92,9 @@ pip3 install torch torchvision torchaudio
 pip3 install -r requirements.txt  
 ```
 ## Dataset
-We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)</strong>, Rain200L<strong>(Rain streaks)</strong>, RainDrop<strong>(Raindrops&Rain streaks)</strong> and AGAN<strong>(Raindrops)</strong> benchmarks. The download links of datasets are provided.
+:open_file_folder: We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)</strong>, Rain200L<strong>(Rain streaks)</strong>, RainDrop  
+
+<strong>(Raindrops&Rain streaks)</strong> and AGAN<strong>(Raindrops)</strong> benchmarks. The download links of datasets are provided.
 
 <table>
   <tr>
