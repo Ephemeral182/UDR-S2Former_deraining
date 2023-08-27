@@ -624,6 +624,7 @@ class CALayer(nn.Module):
         y = self.conv_du(y)
         return x * y
 
+
 class SALayer(nn.Module):
     def __init__(self, channel,reduction=16):
         super(SALayer, self).__init__()
