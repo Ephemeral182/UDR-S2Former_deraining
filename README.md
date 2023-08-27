@@ -111,16 +111,26 @@ We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)<
 
 ## Quick Run
 
-:raised_hands: To test the pre-trained models of [Deraining](https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/pretrained/udrs2former_demo.pth)  on your own images, 
+:raised_hands: To test the demo of [Deraining](https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/pretrained/udrs2former_demo.pth)  on your own images simply, 
 run:
 ```
 python demo.py -c config/demo.yaml
 ```
-Here is an example to perform demo, please save your rainy images into the path of ‘image_demo/input_images’, then execute the following command:
+:point_right: Here is an example to perform demo, please save your rainy images into the path of **‘image_demo/input_images’**, then execute the following command:
 ```
 python demo.py -c config/demo.yaml
 ```
-Tte draining results will be output to the save path of 'image_demo/input_images'.
+Then deraining results will be output to the save path of **'image_demo/output_images'**.
+
+## Inference Stage
+
+:yum: We have pre-trained models available for evaluating on different datasets. Please run the code below to obtain the performance on various benchmarks via --dataset_type (raindrop_syn,raindrop_real,agan,rain200h,rain200l). Here is an example to test raindrop_real datatset:
+```python
+python3  test.py --dataset_type raindrop_real --dataset_raindrop_real your path
+```
+The rusults are saved in **out/dataset_type**.
+
+
 ## Citation 
 ```
 @inproceedings{chen2023deraining,
