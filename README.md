@@ -1,11 +1,13 @@
 # Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks (ICCV'23)
 
-<a href="https://ephemeral182.github.io">Sixiang Chen</a><sup></sup>&nbsp;&nbsp;&nbsp; 
-<a href="https://owen718.github.io">Tian Ye</a><sup></sup>&nbsp;&nbsp;&nbsp;
-<a href="https://noyii.github.io">Jinbin Bai</a><sup></sup>&nbsp;&nbsp;&nbsp;
-<a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a><sup>3</sup>&nbsp;&nbsp;&nbsp;
-Jun Shi<sup>4</sup>&nbsp;&nbsp;&nbsp;
+
+<a href="https://ephemeral182.github.io"><strong>Sixiang Chen*</strong></a>&nbsp;&nbsp;&nbsp; 
+<a href="https://owen718.github.io">Tian Ye</a>*&nbsp;&nbsp;&nbsp;
+<a href="https://noyii.github.io">Jinbin Bai</a>&nbsp;&nbsp;&nbsp;
+<a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=hWo1RTsAAAAJ">Erkang Chen</a>&nbsp;&nbsp;&nbsp;
+Jun Shi&nbsp;&nbsp;&nbsp;
 <a href="https://sites.google.com/site/indexlzhu/home">Lei Zhu</a><sup>✉️</sup>&nbsp;&nbsp;&nbsp;
+<br>
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
 [![supplement](https://img.shields.io/badge/Supplementary-Material-B85252)](https://ephemeral182.github.io/UDR_S2Former_deraining/)
@@ -80,17 +82,19 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 </table>
 
 ## Installation
-Our SnowFormer is built in Pytorch1.12.0, we train and test it ion Ubuntu20.04 environment (Python3.8, Cuda11.6).
+:satisfied: Our UDR-S<sup>2</sup>Former is built in Pytorch2.0.1, we train and test it on Ubuntu20.04 environment (Python3.8+, Cuda11.6).
 
-For installing, please follow these intructions.
+For installing, please follow these instructions:
 ```
 conda create -n py38 python=3.8
 conda activate py38
-conda install pytorch=1.12 
-pip install opencv-python tqdm tensorboardX ....
+pip3 install torch torchvision torchaudio
+pip3 install -r requirements.txt  
 ```
 ## Dataset
-We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)</strong>, Rain200L<strong>(Rain streaks)</strong>, RainDrop<strong>(Raindrops&Rain streaks)</strong> and AGAN<strong>(Raindrops)</strong> benchmarks. The download links of datasets are provided.
+:open_file_folder: We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)</strong>, Rain200L<strong>(Rain streaks)</strong>, RainDrop  
+
+<strong>(Raindrops&Rain streaks)</strong> and AGAN<strong>(Raindrops)</strong> benchmarks. The download links of datasets are provided.
 
 <table>
   <tr>
@@ -111,15 +115,34 @@ We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)<
 
 ## Quick Run
 
-To test the pre-trained models of [Deraining](https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/pretrained/udrs2former_demo.pth)  on your own images, run 
+:raised_hands: To test the demo of [Deraining](https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/pretrained/udrs2former_demo.pth)  on your own images simply, 
+run:
 ```
-python demo.py --task Task_Name --input_dir path_to_images --result_dir save_images_here
+python demo.py -c config/demo.yaml
 ```
-Here is an example to perform Deblurring:
+:point_right: Here is an example to perform demo, please save your rainy images into the path of **‘image_demo/input_images’**, then execute the following command:
 ```
-python demo.py --task Deblurring --input_dir ./samples/input/ --result_dir ./samples/output/
+python demo.py -c config/demo.yaml
 ```
- 
+Then deraining results will be output to the save path of **'image_demo/output_images'**.
+
+## Training Stage
+
+:yum: Our training process is built upon pytorch_lightning, rather than the conventional torch framework. Please run the code below to begin training UDR-S<sup>2</sup>Former on various benchmarks (raindrop_syn,raindrop_real,agan,rain200h,rain200l). Example usage to training our model in raindrop_real:
+```python
+python train.py fit -c config/config_pretrain_raindrop_real.yaml
+```
+The logs and checkpoints are saved in ‘**tb_logs/udrs2former**‘.
+
+## Inference Stage
+
+:smile: We have pre-trained models available for evaluating on different datasets. Please run the code below to obtain the performance on various benchmarks via --dataset_type (raindrop_syn,raindrop_real,agan,rain200h,rain200l). Here is an example to test raindrop_real datatset:
+```python
+python3  test.py --dataset_type raindrop_real --dataset_raindrop_real your path
+```
+The rusults are saved in ‘**out/dataset_type**‘.
+
+
 ## Citation 
 ```
 @inproceedings{chen2023deraining,
