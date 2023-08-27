@@ -80,14 +80,14 @@ Finally, experimental results show that our UDR-S<sup>2</sup>Former clearly outp
 </table>
 
 ## Installation
-Our SnowFormer is built in Pytorch1.12.0, we train and test it ion Ubuntu20.04 environment (Python3.8, Cuda11.6).
+Our UDR-S<sup>2</sup>Former is built in Pytorch2.0.1, we train and test it on Ubuntu20.04 environment (Python3.8+, Cuda11.6).
 
-For installing, please follow these intructions.
+:satisfied: For installing, please follow these instructions:
 ```
 conda create -n py38 python=3.8
 conda activate py38
-conda install pytorch=1.12 
-pip install opencv-python tqdm tensorboardX ....
+pip3 install torch torchvision torchaudio
+pip3 install -r requirements.txt  
 ```
 ## Dataset
 We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)</strong>, Rain200L<strong>(Rain streaks)</strong>, RainDrop<strong>(Raindrops&Rain streaks)</strong> and AGAN<strong>(Raindrops)</strong> benchmarks. The download links of datasets are provided.
@@ -111,15 +111,16 @@ We train and test our UDR-S<sup>2</sup>Former in Rain200H<strong>(Rain streaks)<
 
 ## Quick Run
 
-To test the pre-trained models of [Deraining](https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/pretrained/udrs2former_demo.pth)  on your own images, run 
+:raised_hands: To test the pre-trained models of [Deraining](https://github.com/Ephemeral182/UDR-S2Former_deraining/blob/main/pretrained/udrs2former_demo.pth)  on your own images, 
+run:
 ```
 python demo.py -c config/demo.yaml
 ```
-Here is an example to perform Deblurring:
+Here is an example to perform demo, please save your rainy images into the path of ‘image_demo/input_images’, then execute the following command:
 ```
-python demo.py --task Deblurring --input_dir ./samples/input/ --result_dir ./samples/output/
+python demo.py -c config/demo.yaml
 ```
- 
+Tte draining results will be output to the save path of 'image_demo/input_images'.
 ## Citation 
 ```
 @inproceedings{chen2023deraining,
