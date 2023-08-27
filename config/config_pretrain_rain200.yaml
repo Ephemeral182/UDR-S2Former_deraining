@@ -1,0 +1,32 @@
+seed_everything: true
+trainer:
+  enable_checkpointing: true
+  accelerator: auto
+  # strategy: auto
+  num_nodes: 1
+  devices:
+  - 1
+  - 2
+  - 3
+  fast_dev_run: false
+  max_epochs: 100000
+  precision: 32
+  sync_batchnorm: false
+  inference_mode: true
+  use_distributed_sampler: true
+  accumulate_grad_batches: 1
+  check_val_every_n_epoch: 1
+model:
+  dataset_type: rain200
+  train_datasets: /data/SJ/00YeTian/rain_100/rain_data_train_Light/rain_light_train
+  train_bs: 36
+  test_datasets: null
+  test_bs: 7
+  val_datasets: /data/SJ/00YeTian/rain_100/rain_data_test_Light/rain_light_test
+  val_bs: 6
+  initlr: 0.0007
+  weight_decay: 0.01
+  crop_size: 128
+  crop_size_test: 128
+  num_workers: 2
+ckpt_path: null 

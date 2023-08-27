@@ -1,0 +1,10 @@
+numpy
+opencv-python
+scikit-image
+tqdm
+matplotlib
+tensorboardX
+pytorch_lightning
+timm
+einops
+pillow 
