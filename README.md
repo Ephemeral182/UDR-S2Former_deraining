@@ -128,7 +128,9 @@ Then deraining results will be output to the save path of **'image_demo/output_i
 
 ## Training Stage
 
-:yum: Our training process is built upon pytorch_lightning, rather than the conventional torch framework. Please run the code below to begin training UDR-S<sup>2</sup>Former on various benchmarks (raindrop_syn,raindrop_real,agan,rain200h,rain200l). Example usage to training our model in raindrop_real:
+:yum: Our training process is built upon pytorch_lightning, rather than the conventional torch framework. Please run the code below to begin training UDR-S<sup>2</sup>Former on various benchmarks (raindrop_syn,raindrop_real,agan,  
+
+rain200h,rain200l). Example usage to training our model in raindrop_real:
 ```python
 python train.py fit -c config/config_pretrain_raindrop_real.yaml
 ```
