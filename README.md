@@ -146,11 +146,13 @@ The rusults are saved in ‘**out/dataset_type**‘.
 
 ## Citation 
 ```
-@inproceedings{chen2023deraining,
-  title={Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks},
-  author={Chen, Sixiang and Ye, Tian and Bai, Jinbin and Chen, Erkang and Shi, Jun and Zhu, Lei},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  year={2023}
+@InProceedings{Chen_2023_ICCV,
+    author    = {Chen, Sixiang and Ye, Tian and Bai, Jinbin and Chen, Erkang and Shi, Jun and Zhu, Lei},
+    title     = {Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {13106-13117}
 }
 ```
 ## Contact
