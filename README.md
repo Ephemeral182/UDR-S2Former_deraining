@@ -141,7 +141,7 @@ The logs and checkpoints are saved in ‘**tb_logs/udrs2former**‘.
 ```python
 python3  test.py --dataset_type raindrop_real --dataset_raindrop_real your path
 ```
-The rusults are saved in ‘**out/dataset_type**‘.
+The results are saved in ‘**out/dataset_type**‘.
 
 
 ## Citation 
